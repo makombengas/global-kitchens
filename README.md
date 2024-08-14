@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Cuisines du Monde
 
-## Getting Started
+![Capture d'écran du site](public/images/global_kitchens.png)
 
-First, run the development server:
+Le projet de cuisine international s'adresse aux écoles d'Oldenbourg et est dirigé par des personnes de cultures différentes.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Fonctionnalités
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Exploration de recettes du monde entier
+- Interface multilingue (Anglais, Français, Allemand)
+- Carte interactive des origines culinaires
+- Galerie de photos de plats
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Technologies utilisées
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- [Next.js](https://nextjs.org/) - Framework React pour le rendu côté serveur
+- [next-intl](https://next-intl-docs.vercel.app/) - Internationalisation pour Next.js
+- [@avectopus/atlas-icons](https://www.npmjs.com/package/@avectopus/atlas-icons) - Bibliothèque d'icônes
+- [react-leaflet](https://react-leaflet.js.org/) - Composants React pour les cartes Leaflet
+- [Swiper](https://swiperjs.com/) - Carrousel tactile moderne
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clonez le dépôt
+2. Installez les dépendances avec `npm install`
+3. Lancez le serveur de développement avec `npm run dev`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Approche de développement
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+1. **Internationalisation** : Utilisation de `next-intl` pour gérer les traductions en anglais, français et allemand. Les fichiers de traduction sont stockés dans `/messages/`.
 
-## Deploy on Vercel
+2. **Composants réutilisables** : Création de composants React modulaires pour une meilleure maintenabilité et réutilisation du code.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+3. **Carte interactive** : Intégration de `react-leaflet` pour afficher une carte mondiale interactive montrant l'origine des plats.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+4. **Galerie de photos** : Utilisation de Swiper pour créer un carrousel fluide et réactif des photos de plats.
+
+5. **Icônes** : Intégration de la bibliothèque `@avectopus/atlas-icons` pour des icônes cohérentes et esthétiques.
+
+6. **Responsive Design** : Utilisation de Tailwind css et de media queries pour assurer une expérience utilisateur optimale sur tous les appareils.
+
+## Déploiement
+
+Le site est déployé sur [Netlify](https://netlify.com) pour profiter de l'intégration native avec Next.js.
+
+## Contribution
+
+Les contributions sont les bienvenues ! N'hésitez pas à ouvrir une issue ou à soumettre une pull request.
+

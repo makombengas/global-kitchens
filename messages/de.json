@@ -1,0 +1,152 @@
+{
+    "Manifest": {
+    "name": "next-intl example"
+  },
+    "Navigation": {
+        "home": "Startseite",
+        "about": "Über das Projekt",
+        "workshops": "Workshops",
+        "Team": "Team",
+        "join": "Mitmachen",
+        "contact": "Kontakt",
+         "pathnames": "Pathnames"
+    },
+    "IndexPage": {
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
+    "title": "next-intl example"
+  },
+
+  "PageLayout": {
+      "links": {
+        "docs": {
+          "description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
+          "href": "https://next-intl-docs.vercel.app/",
+          "title": "Dokumentation"
+        },
+        "source": {
+          "description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
+          "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+          "title": "Quellcode"
+        }
+        
+      }
+    },
+    "LocaleSwitcher": {
+      "label": "Sprache ändern",
+      "locale": "{locale, select, de {De Deutsch} en {En English} fr {Fr Französisch} other {Unbekannt}}"
+     
+    },
+     "flags": {
+
+      "flag": " fi-de"
+
+     },
+     "logo": {
+      "logoName": "Globale Küchen",
+      "LogoSlogan": "Nachhaltiger Genuss",
+      "logoLink": "/",
+      "country":"Deutschland",
+      "footerInfo": "Alle Rechte vorbehalten."
+     },
+     "BannerVideo": {
+      "titre": "Gut essen, besser leben.",
+      "slogan": "Das Internationale Kochprojekt richtet sich an Schulen in Oldenburg und wird von Menschen aus verschiedenen Kulturen geleitet.",
+      "theme": "Erfahren Sie, wie Sie für alle gesundes Essen kochen.",
+      "btn": "Mehr lesen",
+      "link": "/about-us",
+      "btnContact": "Fangen Sie an",
+      "linkContact": "/contact"
+     },
+     "GoalsBanner": {
+      "promote": "Förderung des interkulturellen Austauschs",
+      "promoteSlogan": "Unsere Workshops werden von Menschen aus unterschiedlichen Ländern geleitet.",
+      "food": "Bewusstsein für Lebensmittelrettung schaffen",
+      "foodSlogan": "Wir zeigen, wie einfach und kreativ es sein kann, Lebensmittelabfälle zu vermeiden.",
+      "workshops": "interaktive Koch-Workshops",
+      "workshopSlogan": "In interaktiven Kochworkshops bringen wir den Schülern die Zubereitung köstlicher Gerichte bei.",
+      "education": "Bildung für eine bessere Zukunft",
+      "educationSlogan": "Der Erlös des Projekts wird in den Bau von Schulen in Kamerun und der Elfenbeinküste investiert."
+     },
+     "AboutBanner":{
+      "aboutTitle": "Global Music Player – Interkulturelles Miteinander durch Musik und Kulinarik",
+      "aboutSubtitle": "Global Music Player ist ein interkultureller Verein, der sich zum Ziel gesetzt hat, Menschen unterschiedlicher Kulturen durch die verbindende Kraft der Musik und kulinarische Erlebnisse zusammenzubringen. Gegründet in Oldenburg, steht unser Verein für Offenheit, Vielfalt und gegenseitigen Respekt. Wir glauben fest daran, dass kultureller Austausch ein Schlüssel zu mehr Verständnis und Toleranz in unserer Gesellschaft ist.",
+      "aboutBtn": "Mehr Über Uns",
+      "aboutLink": "/about-us"
+     },
+     "PubBanner":{
+      "pubTitle": "Werden Sie Teil unserer Reise!",
+      "pubSubtitle": "Ob als Mitglied, Freiwilliger oder Unterstützer – wir laden Sie herzlich ein, Teil von Global Music Player zu werden. Gemeinsam können wir durch Musik, Kunst und Kulinarik einen positiven Beitrag zur Gesellschaft leisten.",
+      "pubBtn": "Kontaktiere uns",
+      "pubBlackProgram": "Nehmen Sie an unserem Programm teil",
+      "pubBlackSlogan": "Erhalte ein kostenloses Abendessen",
+      "pubBlackSubtitle": "Unser Fokus liegt dabei auf der Förderung interkultureller Begegnungen, der Unterstützung von Bildungsprojekten in Entwicklungsländern und der Bewusstseinsbildung für nachhaltige Lebensweisen.",
+      "pubLink": "/contact"
+     },
+     "Teams": {
+      "title": "Lernen Sie unser Team kennen",
+      "subtitle": "Wir sind eine Gruppe interessierter Menschen im Bereich Kochen und Kultur.",
+        "team": [
+          {
+            "id": 1,
+            "country": "Kamerun",
+            "code": "fi fi-cm",
+            "name": "Bernard Ngassa",
+            "description": "Ich bin Gründungsmitglied des Vereins Global Music Player. Ich gehöre dem Vorstand an und bin als Musiker, Kameramann und Videobearbeiter tätig. Geboren wurde ich in Kamerun und habe dort unter anderem als Kameramann gearbeitet und Videos geschnitten. Für einige Jahre war ich als Kameramann bei einem kameruner Fernsehkanal tätig. In Deutschland lebe ich nun seit etwa 15 Jahren. Seitdem war ich in verschiedenen Vereinen aktiv, wie z. B. „Arfique europe inter act“. Im Rahmen meiner bisherigen Vereinsarbeit bin ich in verschiedene Länder wie z.B. Senegal, Mali und Burkina Faso gereist und war dort an der Produktion von Dokumentarfilmen und Fotografien beteiligt.  ",
+            "imageAlt": "/images/Bernard.jpg",
+            "btn": "Mehr lesen",
+            "link": "/country"
+          },
+          {
+            "id": 2,
+            "country": "Georgien",
+            "code": "fi fi-ge",
+            "name": "Nino Zautashvili",
+            "description": "Ich war Mitbegründer der Global Music Player Association. Seit 2011 habe ich an verschiedenen Projekten mitgearbeitet und den Verein mitgestaltet. Ich war auch an Musicals und Jugendprojekten beteiligt. Ebenfalls enthalten sind Georgierin im Repertoire der Vereinsband Global Music Player AllStars mit eigenen Stücken sowie mit georgischen Traditionals. Von vielen Kulturen geprägt bringe ich aber auch etere, z.B. indische, kaukasische und weitere Elemente und Sprachen mit ein. Zwischen 2011 und 2018 sang und spielte ich im Duo Flower Flow. Sie können meine Singer-Songwriter-Stücke als Solo-Musikerin weiter hören und bin gerade dabei, dem Publikum meinen neuen Namen Kolibrina näher zu gebracht. Die Veröffentlichung meines ersten Albums „So Deep“ muss geklärt sein. Selbst wenn Sie sich das Album anhören, wurde Kolibrinas Werk von „So Deep“ veröffentlicht und war mit neuen Songs auf Tour. Mit diesen Worten können Sie zwischen dem Mensch und den optimalen Musikern wählen. Vordergründig geht es um die Freude bei der schöpferischen Arbeit, die man miteinander teilt. ",
+            "imageAlt": "/images/Nino.jpg",
+            "btn": "Mehr lesen",
+            "link": "/country"
+          },
+          {
+            "id": 3,
+            "country": "Elfenbeinküste",
+            "code": "fi fi-ci",
+            "name": "Jessika",
+            "description": "»Ich bin 1985 in Côte d’Ivoire (Elfenbeinküste) geboren und in der Stadt Man aufgewachsen. Vor neun Jahren bin ich mit dem Zirkus „Afrika Afrika“ zum ersten Mal nach Deutschland gekommen. Mit dem Zirkus bin ich vier Jahre lang durch viele Länder der Welt getourt. »I was born in 1985 in Côte d'Ivoire (Ivory Coast) and grew up in the city of Man. Nine years ago I came to Germany for the first time with the circus Afrika Afrika. I toured many countries around the world with the circus for four years. Seit 2010 lebe ich in Oldenburg. Wie in Côte d’Ivoire arbeite ich hier als Tänzerin und Sängerin und bin viel in Deutschland unterwegs. Ich fliege regelmäßig an die Elfenbeinküste und besuche meine Familie.",
+            "imageAlt": "/images/Jessika.jpg",
+            "btn": "Mehr lesen",
+            "link": "/country"
+          },
+          {
+            "id": 4,
+            "country": "Deutschland",
+            "code": "fi fi-de",
+            "name": "Sophie Arenhövel",
+            "description": " Ich bin interkulturelle Pädagogin, Musiklehrerin und Musikerin (Gesang, Gitarre, Schlagzeug) und arbeite als Projektleiterin für kulturelle Bildung im Kulturamt der Stadt Oldenburg. Daneben bin ich seit vielen Jahren musikalisch und musikpädagogisch in Oldenburg tätig, u.a. als Chorleiterin und in Songprojekten mit Jugendlichen. Durch die Mitarbeit im Verein Global Music Player kann ich mitbekommen, was Jugendliche in Oldenburg bewegt und sie unterstützen, ihrer Stimme musikalischen Ausdruck zu verleihen. Zum anderen kann ich mit anderen „Global Music Playern“ die Musik machen, die mein Herz berührt, z.B. lateinamerikanische Música Popular, und mich für musikalische Begegnungen zwischen Menschen unterschiedlicher Herkunft in Oldenburg einsetzen. ",
+            "imageAlt": "/images/Sophie.jpg",
+            "btn": "Mehr lesen",
+            "link": "/country"
+          },
+          {
+            "id": 5,
+            "country": "Germany",
+            "code": "fi fi-de",
+            "name": "Carsten Lienemann",
+            "description": "Ich bin Journalist, Fotograf und Mediengestalter. Meine Instrumente sind Kamera (für stehende und bewegte Bilder) und Keyboard – allerdings nur zum Schreiben auf dem Laptop. Ich versuche immer wieder, ein wenig Gitarre zu spielen, aber so richtig zielstrebig bin ich da nicht. Ich berichte für ganz-oldenburg.de immer wieder von kleineren und größeren Projekten zu den Themenkomplexen Jugend, Integration, Inklusion und bin auf diesem Wege zum Global Music Player geworden. Hier bin ich in erster Linie mit der Dokumentation der Arbeit in Wort und Bild beschäftigt. Als Mediengestalter habe ich maßgeblich mit den Büchern unseres Verlages zu tun. Die drei Kinderbücher habe ich gesetzt und ebenso wie die beiliegenden CDs für die Produktion vorbereitet. Auch die Produktionsabwicklung fällt in meinen Aufgabenbereich.",
+            "imageAlt": "/images/Carsten.jpg",
+            "btn": "Mehr lesen",
+            "link": "/country"
+          }
+        ]
+      },
+      "Loading": {
+    "loading": "Wird geladen..."
+  },
+  "Sponsors": {
+     "title": "Unsere Sponsoren",
+     "subtitle": "Wir sind jedem einzelnen Unternehmen dankbar, das uns dabei geholfen hat, daran weiterzuarbeiten.",
+    "companyOne": "/images/gmp.jpg",
+    "companyTwo": "/images/stadtOldenburg.svg",
+    "companyThree": "/images/culture.svg",
+    "companyFour": "/images/igs.jpg"
+   }
+}

@@ -1,0 +1,154 @@
+{
+    "Manifest": {
+    "name": "next-intl example"
+  },
+    "Navigation": {
+       "home": "Accueil",
+        "about": "À propos du projet",
+        "workshops": "Ateliers",
+        "Team": "Team",
+        "join": "Rejoignez-nous",
+        "contact": "Contact",
+         "pathnames": "Pathnames"
+    },
+    "IndexPage": {
+      "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
+      "title": "next-intl Beispiel"
+    },
+    "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl-docs.vercel.app/",
+        "title": "Docs"
+      },
+      "source": {
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Source code"
+      }
+    }
+    
+  },
+  "LocaleSwitcher": {
+      "label": "Changer la language",
+      "locale": "{locale, select,  fr {Fr Français} en {En anglais}  de {De Allemand} other {Unknown}}"
+      
+    },
+    "flags": {
+
+      "flag": "fi fi-fr"
+
+     },
+     "logo": {
+      "logoName": "Cuisines du monde",
+      "LogoSlogan": "Un plaisir durable",
+      "logoLink": "/",
+      "country":"Allemagne",
+      "footerInfo": "Tous droits réservés."
+     },
+     "BannerVideo": {
+      "titre": "Manger bien, vivre mieux.",
+      "slogan": "Le projet de cuisine international s'adresse aux écoles d'Oldenbourg et est dirigé par des personnes de cultures différentes.",
+      "theme": "Apprenez à cuisiner des aliments sains pour tout le monde.",
+      "btn": "Lire plus",
+      "link": "/about-us",
+      "btnContact": "Commencer",
+      "linkContact": "/contact"
+     },
+     "GoalsBanner": {
+      "promote": "Promouvoir les échanges interculturels",
+      "promoteSlogan": "Nos ateliers sont dispensés par des hommes dans des régions éloignées.",
+      "food": "Sensibilisation à la récupération alimentaire",
+      "foodSlogan": "Nous montrons à quel point il peut être facile et créatif d’éviter le gaspillage alimentaire.",
+      "workshops": "Ateliers de cuisine interactifs",
+      "workshopSlogan": "Lors d'ateliers de cuisine interactifs, nous enseignons aux étudiants comment créer des plats délicieux.",
+      "education": "L'éducation pour un avenir meilleur",
+      "educationSlogan": "Les bénéfices du projet seront investis dans la construction d’écoles au Cameroun et en Côte d’Ivoire."
+     },
+     "AboutBanner":{
+      "aboutTitle": "Global Music Player – La convivialité interculturelle à travers la musique et les délices culinaires",
+      "aboutSubtitle": "Global Music Player est une association interculturelle qui vise à rassembler des personnes de cultures différentes grâce au pouvoir fédérateur de la musique et des expériences culinaires. Fondée à Oldenburg, notre association est synonyme d'ouverture, de diversité et de respect mutuel. Nous croyons fermement que les échanges culturels sont la clé d’une plus grande compréhension et d’une plus grande tolérance dans notre société.",
+      "aboutBtn": "En savoir plus sur nous",
+      "aboutLink": "/about-us"
+     },
+     "PubBanner":{
+      "pubTitle": "Faites partie de notre voyage !",
+      "pubSubtitle": "Que vous soyez membre, bénévole ou sympathisant, nous vous invitons chaleureusement à rejoindre Global Music Player. Ensemble, nous pouvons apporter une contribution positive à la société à travers la musique, l'art et les arts culinaires.",
+      "pubBtn": "Contactez-nous",
+      "pubBlackProgram": "Rejoignez notre programme",
+      "pubBlackSlogan": "Obtenez un diner gratuit",
+      "pubBlackSubtitle": "Notre objectif est de promouvoir les rencontres interculturelles, de soutenir des projets éducatifs dans les pays en développement et de sensibiliser aux modes de vie durables.",
+      "pubLink": "/contact"
+     },
+     "Teams": {
+      "title": "Rencontrez notre équipe",
+      "subtitle": "Nous sommes un groupe de personnes intéressées par le domaine de la cuisine et de la culture.",
+        "team": [
+          {
+            "id": 1,
+            "country": "Cameroun",
+            "code": "fi fi-cm",
+            "name": "Bernard Ngassa",
+            "description": "Je suis membre fondateur de l'association Global Music Player. Je suis membre du conseil d'administration et travaille comme musicien, caméraman et monteur vidéo. Je suis né au Cameroun et j'y ai travaillé, entre autres, comme caméraman et montage de vidéos. J'ai travaillé pendant quelques années comme caméraman pour une chaîne de télévision camerounaise. Je vis en Allemagne depuis environ 15 ans maintenant. Depuis, je suis actif dans divers clubs, tels que : B. « Arfique europe inter act ». Dans le cadre de mon précédent travail associatif, j'ai voyagé dans différents pays comme le Sénégal, le Mali et le Burkina Faso et j'y ai participé à la production de documentaires et de photographies. ",
+            "imageAlt": "/images/Bernard.jpg",
+            "btn": "Lire plus",
+            "link": "/country"
+          },
+          {
+            "id": 2,
+            "country": "Georgie",
+            "code": "fi fi-ge",
+            "name": "Nino Zautashvili",
+            "description": "J'ai co-fondé l'association Global Music Player. Depuis 2011, j'ai travaillé sur différents projets et contribué à façonner l'association. J'ai également été impliqué dans des comédies musicales et des projets jeunesse. En tant que Géorgien d'origine, j'enrichis le répertoire du groupe de club Global Music Player AllStars avec mes propres morceaux ainsi que des classiques géorgiens. Influencé par de nombreuses cultures, j'apporte également d'autres éléments et langues, comme l'indien, le caucasien et d'autres éléments. Entre 2011 et 2018 j'ai chanté et joué dans le duo Flower Flow. Maintenant, je continue à travailler sur mes pièces d'auteur-compositeur-interprète en tant que musicien solo et je suis actuellement en train de présenter au public mon nouveau nom, Kolibrina. La sortie de mon premier album « So Deep » a dû être reportée. Dès que la vie publique refleurira, Kolibrina prévoit de tourner et d'enregistrer plus de chansons après la sortie de « So Deep ». Dans ce club, vous pouvez vous développer de manière optimale en tant que personne et en tant que musicien. Apparemment, il s'agit de la joie du travail créatif que vous partagez les uns avec les autres. ",
+            "imageAlt": "/images/Nino.jpg",
+            "btn": "Lire plus",
+            "link": "/country"
+          },
+          {
+            "id": 3,
+            "country": "Côte d’Ivoire",
+            "code": "fi fi-ci",
+            "name": "Jessika",
+            "description": "» Je suis né en Côte d’Ivoire en 1985 et j’ai grandi dans la ville de Man. Il y a neuf ans, je suis venu pour la première fois en Allemagne avec le cirque « Afrika Afrika ». J'ai parcouru de nombreux pays à travers le monde avec le cirque pendant quatre ans. »Je suis né en 1985 en Côte d'Ivoire et j'ai grandi dans la ville de Man. Il y a neuf ans, je suis venu pour la première fois en Allemagne avec le cirque Afrika Afrika. J'ai parcouru de nombreux pays à travers le monde avec le cirque pendant quatre ans. Je vis à Oldenbourg depuis 2010. Comme en Côte d’Ivoire, je travaille ici comme danseuse et chanteuse et je voyage beaucoup en Allemagne. Je prends régulièrement l'avion pour la Côte d'Ivoire et je rends visite à ma famille.",
+            "imageAlt": "/images/Jessika.jpg",
+            "btn": "Lire plus",
+            "link": "/country"
+          },
+          {
+            "id": 4,
+            "country": "Allemagne",
+            "code": "fi fi-de",
+            "name": "Sophie Arenhövel",
+            "description": "Je suis éducatrice interculturelle, professeur de musique et musicienne (chant, guitare, percussions) et je travaille comme chef de projet pour l'éducation culturelle au bureau culturel de la ville d'Oldenbourg. Je suis également impliqué depuis de nombreuses années dans la musique et l'éducation musicale à Oldenbourg, notamment en tant que chef de chœur et dans des projets de chant avec des jeunes. En travaillant au sein de l'association Global Music Player, je peux voir ce qui motive les jeunes d'Oldenbourg et les aider à exprimer leur voix musicalement. D’un autre côté, je peux travailler avec d’autres « acteurs de la musique mondiale » pour rendre populaire la musique qui me touche, par exemple la musique latino-américaine, et promouvoir les rencontres musicales entre personnes d’origines différentes à Oldenburg. ",
+            "imageAlt": "/images/Sophie.jpg",
+            "btn": "Lire plus",
+            "link": "/country"
+          },
+          {
+            "id": 5,
+            "country": "Allemagne",
+            "code": "fi fi-de",
+            "name": "Carsten Lienemann",
+            "description": "Je suis journaliste, photographe et concepteur de médias. Mes instruments sont un appareil photo (pour les images fixes et animées) et un clavier - mais uniquement pour écrire sur l'ordinateur portable. J'essaie toujours de jouer un peu de guitare, mais je ne suis pas vraiment déterminé. Je rends compte à plusieurs reprises de projets plus petits et plus grands sur les thèmes de la jeunesse, de l'intégration et de l'inclusion pour ganz-oldenburg.de et je suis ainsi devenu un acteur musical mondial. Ici, mon souci principal est de documenter le travail en mots et en images. En tant que concepteur de médias, j'ai beaucoup à voir avec les livres de nos éditeurs. J'ai composé les trois livres pour enfants et les ai préparés pour la production, tout comme les CD qui les accompagnaient. Le traitement de la production relève également de mon domaine de responsabilité.",
+            "imageAlt": "/images/Carsten.jpg",
+            "btn": "Lire plus",
+            "link": "/country"
+          }
+        ]
+      }, 
+      
+      "Loading": {
+          "loading": "Chargement..."
+      },
+      "Sponsors": {
+     "title": "Nos Sponsors",
+     "subtitle": "Nous sommes reconnaissants à chaque entreprise qui nous a aidé à continuer à travailler sur ce projet.",
+    "companyOne": "/images/gmp.jpg",
+    "companyTwo": "/images/stadtOldenburg.svg",
+    "companyThree": "/images/culture.svg",
+    "companyFour": "/images/igs.jpg"
+   }
+   
+
+}

@@ -1,0 +1,159 @@
+{
+    "Manifest": {
+    "name": "next-intl example"
+  },
+
+  "Navigation": {
+        "home": "Home",
+        "about": "About the project",
+        "workshops": "Workshops",
+        "Team": "Team",
+        "join": "Join us",
+        "contact": "Contact",
+         "pathnames": "Pathnames"
+    },
+
+    "IndexPage": {
+      "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
+      "title": "next-intl Beispiel"
+    },
+    "PageLayout": {
+    "links": {
+      "docs": {
+        "description": "Learn more about next-intl in the official docs.",
+        "href": "https://next-intl-docs.vercel.app/",
+        "title": "Docs"
+      },
+      "source": {
+        "description": "Browse the source code of this example on GitHub.",
+        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
+        "title": "Source code"
+      }
+    }
+   
+   
+  },
+  "LocaleSwitcher": {
+    "label": "Change language",
+    "locale": "{locale, select, en {En English} de {De Deutsch} fr {Fr French} other {Unknown}}"
+  
+  },
+  "flags": {
+
+    "flag": "fi fi-gb"
+
+   },
+   "logo": {
+      "logoName": "Global Kitchens",
+      "LogoSlogan": "Sustainable pleasure",
+      "logoLink": "/",
+      "country":"Germany",
+      "footerInfo": "All rights reserved."
+     
+     },
+     "BannerVideo": {
+      "titre": "Eat well, live better.",
+      "slogan": "The International Cooking Project is aimed at schools in Oldenburg and is led by people from different cultures.",
+      "theme": "Learn how to cook healthy food for everyone.",
+      "btn": "Read more",
+      "link": "/about-us",
+      "btnContact": "Get started",
+      "linkContact": "/contact"
+     },
+     "GoalsBanner": {
+      "promote": "Promoting intercultural exchange",
+      "promoteSlogan": "Unsere Workshops werden von Menschen aus unterschiedlichen Ländern geleitet.",
+      "food": "Raising awareness for food rescue",
+      "foodSlogan": "We show how easy and creative it can be to avoid food waste.",
+      "workshops": "interactive cooking workshops",
+      "workshopSlogan": "In interactive cooking workshops, we teach students how to create delicious dishes.",
+      "education": "Education for a better future",
+      "educationSlogan": "The proceeds from the project will be invested in the construction of schools in Cameroon and Ivory Coast."
+     },
+     "AboutBanner":{
+      "aboutTitle": "Global Music Player – Intercultural togetherness through music and culinary delights",
+      "aboutSubtitle": "Global Music Player is an intercultural association that aims to bring people from different cultures together through the unifying power of music and culinary experiences. Founded in Oldenburg, our association stands for openness, diversity and mutual respect. We firmly believe that cultural exchange is a key to greater understanding and tolerance in our society.",
+      "aboutBtn": "More About Us",
+      "aboutLink": "/about-us"
+     },
+     "PubBanner":{
+      "pubTitle": "Become part of our journey!",
+      "pubSubtitle": "Whether as a member, volunteer or supporter – we warmly invite you to become part of Global Music Player. Together we can make a positive contribution to society through music, art and culinary arts.",
+      "pubBtn": "Contact us",
+      "pubBlackProgram": "Join our program",
+      "pubBlackSlogan": "Get a free dinner",
+      "pubBlackSubtitle": "Our focus is on promoting intercultural encounters, supporting educational projects in developing countries and raising awareness of sustainable lifestyles.",
+      "pubLink": "/contact"
+     },
+     
+      "Teams": {
+        "title": "Meet our team",
+        "subtitle": "We are a group of people who are interested in the field of cooking and culture.",
+
+        "team": [
+          {
+            "id": 1,
+            "country": "Cameroon",
+            "code": "fi fi-cm",
+            "name": "Bernard Ngassa",
+            "description": "I am a founding member of the Global Music Player association. I am on the board and work as a musician, cameraman and video editor. I was born in Cameroon and have worked there as a cameraman and edited videos, among other things. For a few years I worked as a cameraman for a Cameroonian television channel. I have now lived in Germany for around 15 years. Since then I have been active in various associations, such as Arfique europe inter act . As part of my previous association work I have travelled to various countries such as Senegal, Mali and Burkina Faso and have been involved in the production of documentaries and photographs.",
+            "imageAlt": "/images/Bernard.jpg",
+            "btn": "Learn more",
+            "link": "/country"
+          },
+          {
+            "id": 2,
+            "country": "Georgia",
+            "code": "fi fi-ge",
+            "name": "Nino Zautashvili",
+            "description": "I co-founded the Global Music Player association. Since 2011, I have worked on various projects and helped shape the association. I have also been involved in the musicals and youth projects. Als gebürtige Georgierin bereichere ich das Repertoire der Vereinsband Global Music Player AllStars mit eigenen Stücken sowie mit georgischen Traditionals. Von vielen Kulturen geprägt bringe ich aber auch andere, z.B. indische, kaukasische und weitere Elemente und Sprachen mit ein. Zwischen 2011 und 2018 sang und spielte ich im Duo Flower Flow. Jetzt arbeite ich an meinen Singer-Songwriter-Stücken als Solo-Musikerin weiter und bin gerade dabei, dem Publikum meinen neuen Namen Kolibrina näher zu bringen. Die Veröffentlichung meines ersten Albums „So Deep“ musste verschoben werden. Sobald das öffentliche Leben wieder erblüht, plant Kolibrina nach dem Release von „So Deep“ eine Tournee und die Aufnahme weiterer Songs. In diesem Verein kann man sich als Mensch und als Musiker optimal entfalten. Vordergründig geht es um die Freude bei der schöpferischen Arbeit, die man miteinander teilt.",
+            "imageAlt": "/images/Nino.jpg",
+            "btn": "Learn more",
+            "link": "/country"
+          },
+          {
+            "id": 3,
+            "country": "Ivory Coast",
+            "code": "fi fi-ci",
+            "name": "Jessika",
+            "description": "»I was born in 1985 in Côte d'Ivoire (Ivory Coast) and grew up in the city of Man. Nine years ago I came to Germany for the first time with the circus Afrika Afrika. I toured many countries around the world with the circus for four years. I have been living in Oldenburg since 2010. As in Côte d'Ivoire, I work here as a dancer and singer and travel a lot in Germany. I regularly fly to the Ivory Coast to visit my family.",
+            "imageAlt": "/images/Jessika.jpg",
+            "btn": "Learn more",
+            "link": "/country"
+          },
+          {
+            "id": 4,
+            "country": "Germany",
+            "code": "fi fi-de",
+            "name": "Sophie Arenhövel",
+            "description": "I am an intercultural educator, music teacher and musician (singing, guitar, drums) and work as a project manager for cultural education in the cultural office of the city of Oldenburg. I have also been active in music and music education in Oldenburg for many years, including as a choir director and in song projects with young people. Through my work with the Global Music Player association, I can see what moves young people in Oldenburg and support them in giving musical expression to their voices. I can also play the music that touches my heart with other Global Music Players e.g. Latin American Música Popular, and promote musical encounters between people of different backgrounds in Oldenburg. ",
+            "imageAlt": "/images/Sophie.jpg",
+            "btn": "Learn more",
+            "link": "/country"
+          },
+          {
+            "id": 5,
+            "country": "Germany",
+            "code": "fi fi-de",
+            "name": "Carsten Lienemann",
+            "description": "I am a journalist, photographer and media designer. My instruments are a camera (for still and moving images) and a keyboard - but only for writing on my laptop. I always try to play a little guitar, but I'm not really that determined. I report for ganz-oldenburg.de on smaller and larger projects on the topics of youth, integration and inclusion and have become a global music player in this way. Here I am primarily involved in documenting the work in words and pictures. As a media designer, I am largely involved in our publishing house's books. I set the three children's books and prepared them for production, as well as the accompanying CDs. Production management is also part of my responsibilities.",
+            "imageAlt": "/images/Carsten.jpg",
+            "btn": "Learn more",
+            "link": "/country"
+          }
+        ]
+      },
+      "Loading": {
+    "loading": "Loading..."
+   
+  },
+   "Sponsors": {
+     "title": "Our Sponsors",
+     "subtitle": "We are grateful to every single company that helped us continue working on this.",
+    "companyOne": "/images/gmp.jpg",
+    "companyTwo": "/images/stadtOldenburg.svg",
+    "companyThree": "/images/culture.svg",
+    "companyFour": "/images/igs.jpg"
+   }
+    
+}
