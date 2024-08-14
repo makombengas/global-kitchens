@@ -15,7 +15,7 @@ const CountryPage = (searchParams) => {
   return (
     <div>
       
-       <div className="w-full h-[6rem]  md:h-[7rem] text-white bg-[#31343a] fixed"/>
+       <div className="w-full h-[6rem]  md:h-[7rem] text-white bg-[#141517] fixed"/>
           
        <div className="w-full h-full p-0 pt-24  ">
                 
