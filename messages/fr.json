@@ -9,7 +9,8 @@
         "Team": "Team",
         "join": "Rejoignez-nous",
         "contact": "Contact",
-         "pathnames": "Pathnames"
+         "pathnames": "Pathnames",
+          "adresse": "Adresse:"
     },
     "IndexPage": {
       "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
@@ -55,10 +56,11 @@
       "link": "/about-us",
       "btnContact": "Commencer",
       "linkContact": "/contact"
+
      },
      "GoalsBanner": {
       "promote": "Promouvoir les échanges interculturels",
-      "promoteSlogan": "Nos ateliers sont dispensés par des hommes dans des régions éloignées.",
+      "promoteSlogan": "Nos ateliers sont dispensés par des hommes et femmes de cultures diverses.",
       "food": "Sensibilisation à la récupération alimentaire",
       "foodSlogan": "Nous montrons à quel point il peut être facile et créatif d’éviter le gaspillage alimentaire.",
       "workshops": "Ateliers de cuisine interactifs",
@@ -82,8 +84,10 @@
       "pubLink": "/contact"
      },
      "Teams": {
+      "teamTitle": "Notre équipe",
       "title": "Rencontrez notre équipe",
-      "subtitle": "Nous sommes un groupe de personnes intéressées par le domaine de la cuisine et de la culture.",
+      "subtitle": "Une équipe diversifiée et passionnée de service interculturel et de développement durable.",
+      "description": "Chez Global Music Player, notre équipe est notre plus grande force. Composée de personnes venant des quatre coins du monde, notre équipe reflète la diversité culturelle que nous célébrons à travers nos projets. Chacun de nos membres apporte sa propre expérience, ses compétences uniques et une passion partagée pour le changement social.",
         "team": [
           {
             "id": 1,
@@ -93,7 +97,7 @@
             "description": "Je suis membre fondateur de l'association Global Music Player. Je suis membre du conseil d'administration et travaille comme musicien, caméraman et monteur vidéo. Je suis né au Cameroun et j'y ai travaillé, entre autres, comme caméraman et montage de vidéos. J'ai travaillé pendant quelques années comme caméraman pour une chaîne de télévision camerounaise. Je vis en Allemagne depuis environ 15 ans maintenant. Depuis, je suis actif dans divers clubs, tels que : B. « Arfique europe inter act ». Dans le cadre de mon précédent travail associatif, j'ai voyagé dans différents pays comme le Sénégal, le Mali et le Burkina Faso et j'y ai participé à la production de documentaires et de photographies. ",
             "imageAlt": "/images/Bernard.jpg",
             "btn": "Lire plus",
-            "link": "/country"
+             "link": "/teams/"
           },
           {
             "id": 2,
@@ -103,7 +107,7 @@
             "description": "J'ai co-fondé l'association Global Music Player. Depuis 2011, j'ai travaillé sur différents projets et contribué à façonner l'association. J'ai également été impliqué dans des comédies musicales et des projets jeunesse. En tant que Géorgien d'origine, j'enrichis le répertoire du groupe de club Global Music Player AllStars avec mes propres morceaux ainsi que des classiques géorgiens. Influencé par de nombreuses cultures, j'apporte également d'autres éléments et langues, comme l'indien, le caucasien et d'autres éléments. Entre 2011 et 2018 j'ai chanté et joué dans le duo Flower Flow. Maintenant, je continue à travailler sur mes pièces d'auteur-compositeur-interprète en tant que musicien solo et je suis actuellement en train de présenter au public mon nouveau nom, Kolibrina. La sortie de mon premier album « So Deep » a dû être reportée. Dès que la vie publique refleurira, Kolibrina prévoit de tourner et d'enregistrer plus de chansons après la sortie de « So Deep ». Dans ce club, vous pouvez vous développer de manière optimale en tant que personne et en tant que musicien. Apparemment, il s'agit de la joie du travail créatif que vous partagez les uns avec les autres. ",
             "imageAlt": "/images/Nino.jpg",
             "btn": "Lire plus",
-            "link": "/country"
+             "link": "/teams/"
           },
           {
             "id": 3,
@@ -113,7 +117,7 @@
             "description": "» Je suis né en Côte d’Ivoire en 1985 et j’ai grandi dans la ville de Man. Il y a neuf ans, je suis venu pour la première fois en Allemagne avec le cirque « Afrika Afrika ». J'ai parcouru de nombreux pays à travers le monde avec le cirque pendant quatre ans. »Je suis né en 1985 en Côte d'Ivoire et j'ai grandi dans la ville de Man. Il y a neuf ans, je suis venu pour la première fois en Allemagne avec le cirque Afrika Afrika. J'ai parcouru de nombreux pays à travers le monde avec le cirque pendant quatre ans. Je vis à Oldenbourg depuis 2010. Comme en Côte d’Ivoire, je travaille ici comme danseuse et chanteuse et je voyage beaucoup en Allemagne. Je prends régulièrement l'avion pour la Côte d'Ivoire et je rends visite à ma famille.",
             "imageAlt": "/images/Jessika.jpg",
             "btn": "Lire plus",
-            "link": "/country"
+             "link": "/teams/"
           },
           {
             "id": 4,
@@ -123,7 +127,7 @@
             "description": "Je suis éducatrice interculturelle, professeur de musique et musicienne (chant, guitare, percussions) et je travaille comme chef de projet pour l'éducation culturelle au bureau culturel de la ville d'Oldenbourg. Je suis également impliqué depuis de nombreuses années dans la musique et l'éducation musicale à Oldenbourg, notamment en tant que chef de chœur et dans des projets de chant avec des jeunes. En travaillant au sein de l'association Global Music Player, je peux voir ce qui motive les jeunes d'Oldenbourg et les aider à exprimer leur voix musicalement. D’un autre côté, je peux travailler avec d’autres « acteurs de la musique mondiale » pour rendre populaire la musique qui me touche, par exemple la musique latino-américaine, et promouvoir les rencontres musicales entre personnes d’origines différentes à Oldenburg. ",
             "imageAlt": "/images/Sophie.jpg",
             "btn": "Lire plus",
-            "link": "/country"
+             "link": "/teams/"
           },
           {
             "id": 5,
@@ -133,7 +137,7 @@
             "description": "Je suis journaliste, photographe et concepteur de médias. Mes instruments sont un appareil photo (pour les images fixes et animées) et un clavier - mais uniquement pour écrire sur l'ordinateur portable. J'essaie toujours de jouer un peu de guitare, mais je ne suis pas vraiment déterminé. Je rends compte à plusieurs reprises de projets plus petits et plus grands sur les thèmes de la jeunesse, de l'intégration et de l'inclusion pour ganz-oldenburg.de et je suis ainsi devenu un acteur musical mondial. Ici, mon souci principal est de documenter le travail en mots et en images. En tant que concepteur de médias, j'ai beaucoup à voir avec les livres de nos éditeurs. J'ai composé les trois livres pour enfants et les ai préparés pour la production, tout comme les CD qui les accompagnaient. Le traitement de la production relève également de mon domaine de responsabilité.",
             "imageAlt": "/images/Carsten.jpg",
             "btn": "Lire plus",
-            "link": "/country"
+             "link": "/teams/"
           }
         ]
       }, 
@@ -148,7 +152,227 @@
     "companyTwo": "/images/stadtOldenburg.svg",
     "companyThree": "/images/culture.svg",
     "companyFour": "/images/igs.jpg"
-   }
+   },
+   "About":{
+    "title": "Projet de cuisine internationale",
+    "slogan": "Une aventure culinaire pour la durabilité et l’éducation",	
+    "description": "Le projet international de cuisine de Global Music Player est plus qu'un simple cours de cuisine : c'est une plateforme d'échange interculturel, de durabilité et d'éducation mondiale. En collaboration avec des écoles d'Oldenburg, nous proposons une série d'ateliers de cuisine interactifs destinés aux étudiants de tous âges. Notre objectif est de les sensibiliser à l’importance de l’alimentation, d’encourager leurs compétences culinaires créatives tout en les sensibilisant aux défis du gaspillage alimentaire.",
+    "aboutBottom":[
+     {
+       "id":1,
+       "title":"Notre vision",
+       "titleInfos":"Notre vision",
+       "description":"Dans un monde où des millions de tonnes de nourriture sont gaspillées chaque année, nous souhaitons sensibiliser à la valeur de chaque ingrédient. Grâce à l'International Cooking Project, nous enseignons aux étudiants qu'il est possible de créer quelque chose de délicieux et de nutritif à partir de n'importe quel aliment, même des restes. Dans le même temps, nous utilisons le pouvoir de la cuisine ensemble pour surmonter les différences culturelles et promouvoir une nouvelle génération de citoyens cosmopolites et soucieux de l’environnement.",
+        "descriptionInfosOne":"",
+        "descriptionInfosTwo":"",
+        "descriptionInfosThree":"",
+        "descriptionInfosFour":"",
+       " descriptionInfosFive":"",
+        "descriptionInfosSix:":"",
+       "descriptionSix":""
+
+     },
+     {
+       "id":2,
+       "title":"Nos objectifs et la valeur ajoutée sociale",
+       "description":"Durabilité et sauvetage alimentaire : la gestion de la nourriture est un aspect central du projet. Nous montrons aux étudiants comment préparer de délicieux plats à partir d’aliments souvent considérés comme des déchets. Ils apprennent à conserver les ressources et à réduire leur empreinte écologique. Ces compétences sont non seulement utiles à la maison, mais contribuent également à la durabilité mondiale.",
+       "descriptionInfosOne":"",
+       "descriptionInfosTwo":"",
+       "descriptionInfosThree":"",
+       "descriptionInfosFour":"",
+      "descriptionInfosFive":"",
+      "descriptionInfosSix":"",
+       "descriptionOne":"",
+       "descriptionTwo":"Dialogue et compréhension interculturels : Les ateliers de cuisine sont animés par des personnes de différentes cultures vivant à Oldenbourg. Ces professeurs de cuisine internationale apportent leurs propres recettes et histoires traditionnelles, donnant aux étudiants un aperçu authentique d'autres cultures. De cette manière, nous favorisons non seulement la compréhension des différences culturelles, mais également l’appréciation de ce qui nous unit : manger ensemble.",
+       "descriptionThree":"Promouvoir l'éducation au Cameroun et en Côte d'Ivoire : Les bénéfices des projets sont investis directement dans la construction et l'équipement d'écoles au Cameroun et en Côte d'Ivoire. L’éducation est la clé d’un avenir meilleur et, par notre travail, nous voulons contribuer à garantir que les enfants de ces pays aient également la possibilité d’aller à l’école. Nous soutenons ainsi non seulement le développement personnel des enfants, mais également les structures sociales et économiques locales.",
+       "descriptionFour":"",
+       "descriptionFive":"",
+        "descriptionInfosSix:":"",
+       "descriptionSix":""
+     },
+     {
+       "id":3,
+       "title":"Structure et processus du projet",
+       "description":"Nous travaillons en étroite collaboration avec les écoles d'Oldenburg pour atteindre les étudiants qui souhaitent participer à nos ateliers. La sélection des écoles est basée sur l'intérêt pour les sujets interculturels et durables.",
+       "descriptionInfosOne":"Sélection des écoles et des participants :",
+       "descriptionOne":"Nous travaillons en étroite collaboration avec les écoles d'Oldenburg pour atteindre les étudiants qui souhaitent participer à nos ateliers. La sélection des écoles est basée sur l'intérêt pour les sujets interculturels et durables.",
+       "descriptionInfosTwo":"Conception et préparation de l'atelier :",
+       "descriptionTwo":"Chaque atelier est soigneusement préparé par nos professeurs de cuisine internationaux. Ils sélectionnent des recettes à la fois simples et représentatives de leurs cultures respectives. Nous veillons à ce que les ingrédients utilisés soient disponibles localement et de façon saisonnière pour soutenir les principes de durabilité.",
+       "descriptionInfosThree":"Mise en place des ateliers :",
+       "descriptionThree":"Les ateliers commencent par une introduction au thème du gaspillage alimentaire et à l'importance de la durabilité. Les professeurs de cuisine présentent ensuite leurs recettes et racontent les histoires qui se cachent derrière les plats. Les étudiants cuisinent ensuite sous supervision et apprennent des techniques de cuisine importantes et des façons créatives de gérer les restes.",
+       "descriptionInfosFour":"Réflexion et échange :",
+       "descriptionFour":"Après avoir cuisiné et mangé ensemble, il y a un espace de réflexion et de discussion. Les étudiants peuvent poser des questions, partager leurs expériences et parler de ce qu'ils ont appris. Cet échange est crucial pour comprendre les enjeux culturels et environnementaux abordés par le projet.",
+       "descriptionInfosFive":"Poursuite et engagement :",
+       "descriptionFive":"Après les ateliers, les participants ont accès à des recettes et du matériel qu'ils peuvent utiliser à la maison pour approfondir davantage ce qu'ils ont appris. Ils ont également la possibilité de participer à d’autres activités de la Global Music Player Association pour élargir davantage leurs connaissances et leurs compétences.",
+       "descriptionInfosSix:":"",
+       "descriptionSix":""
+     },
+     {
+       "id":4,
+       "title":"Impact durable et perspectives d’avenir",
+       "description":"L’International Cooking Project ne se limite pas à un atelier ponctuel. Notre objectif est d’apporter des changements à long terme dans le comportement et la pensée des étudiants. En enseignant des compétences pratiques et une sensibilité culturelle, nous voulons contribuer à la création d’une société durable et ouverte.",
+       "descriptionInfosOne":"",
+       "descriptionOne":"Nous prévoyons d'utiliser les revenus de ce projet pour construire et équiper des écoles supplémentaires au Cameroun et en Côte d'Ivoire. Ce faisant, nous élargissons l’accès à l’éducation et offrons aux jeunes la chance d’un avenir meilleur. Nous espérons que ce projet sera reproduit dans d'autres villes et pays pour multiplier son influence positive.",
+       "descriptionInfosTwo":"",
+       "descriptionTwo":"",
+       "descriptionInfosThree":"",
+       "descriptionThree":"",
+       "descriptionInfosFour":"",
+       "descriptionFour":"",
+       "descriptionInfosFive":"",
+       "descriptionFive":"",
+       "descriptionInfosSix":"",
+       "descriptionSix":"" 
+     }
+   
+    ]
+ },
+
+ "Contact":{
+   "title":"Contactez-nous",
+   "subtitle":"Vous avez des questions sur notre projet, souhaitez en savoir plus sur nos ateliers ou désirez simplement entrer en contact avec nous ? Nous serions ravis de vous entendre !",
+   "coordonnées":"Nos coordonnées:",
+   "formulaire":"Formulaire de contact :",
+   "nom":"Écrivez votre nom complet",
+   "email":"Écrivez votre adresse e-mail",
+   "message":"Écrivez votre message...",
+   "btn":"Envoyer votre message",
+   "formulaireInfos":"Remplissez le formulaire ci-dessous, et nous reviendrons vers vous dans les plus brefs délais.",
+   "adresse":"Notre adresse:",
+   "horaire":"Nos horaires:",
+   "donnéInfos":[
+   
+      {
+        "id":1,
+        "title":"Téléphone :",
+       
+        "adresse":"+49 0176 21 84 71 69"
+       
+      },
+      {
+        "id":2,
+        "title":"Email :",
+       
+        "adresse":"berlioz2001@yahoo.fr"
+      }
+     ] ,
+     "contactInfos":[
+      {
+        "id":1,
+        "title":"Adresse :",
+        "adresse":"Humboldtstraße 32, 26121 Oldenburg, Allemagne"
+    
+      }
+     ] ,
+     "horaireInfos":[
+      {
+        "id":1,
+        "jour":"Lundi - vendredi :",
+        "heure":"08:00 - 17:00"
+    
+      },
+      {
+        "id":2,
+        "jour":"Samedi et dimanche :",
+        "heure":"Fermé"
+    
+      }
+     ] ,
+     "réseauxSociaux":"Suivez-nous sur les réseaux sociaux :" ,
+     "formError":"Veuillez remplir tous les champs avant de soumettre votre formulaire !",
+     "formWorkInfosTitle":"Notre formulaire de contact est actuellement en cours de révision afin de vous offrir un service encore meilleur. Nous vous demandons votre compréhension.",
+     "formWorkInfosSubtitle":"En attendant, vous pouvez nous joindre",
+     "formWorkInfosEmailTitle":"Adresse e-mail",
+     "formWorkInfosEmail":"berlioz:2001@yahoo.fr",
+     "formWorkInfosPhoneTitle":"Numéro de téléphone",
+     "formWorkInfosPhone":"+49 0176 21 84 71 69",
+     "formWorkInfosThanks":"Merci de votre patience. Nous espérons vous accueillir bientôt avec notre formulaire de contact amélioré.",
+     "formWorkInfosName":"Bernard Ngassa",
+     "formWorkInfosJobTitle":"Chef de projet"
+ },
+ "JoinUs":{
+   "title":"Vous partagez notre passion pour la diversité culturelle, la durabilité et l'éducation ?", 
+   "subtitle":"Rejoignez notre équipe et contribuez activement à la réalisation de nos projets !",
+   "pourquoi":"Pourquoi rejoindre Global Music Player ?",
+   "poste":"Postes disponibles :",
+   "nousJoindre":"Rejoignez-nous :",
+   "nousJoindreText":"Envie de faire partie d'une équipe dédiée à l'interculturalité et au développement durable ? Consultez notre section Rejoindre notre équipe pour découvrir comment vous pouvez contribuer à notre mission.",
+   "pourquoiArray":[
+    {
+      "id":1,
+      "title":"Impact social :",
+      "subtitle":"En rejoignant notre équipe, vous aurez l'opportunité de participer à des initiatives qui changent réellement les choses, tant localement qu'internationalement."
+    },
+    {
+      "id":2,
+      "title":"Enrichissement personnel :",    
+      "subtitle":" Apprenez de nouvelles compétences, découvrez des cultures différentes et faites partie d'une communauté engagée et solidaire."
+    },
+    {
+      "id":3,
+      "title":"Développement professionnel :",
+      "subtitle":"Acquérez de l'expérience dans la gestion de projets, l'animation d'ateliers et bien plus encore, dans un cadre interdisciplinaire et dynamique."
+    }
+    
+   ],
+   "posteArray":[
+ 
+    {
+      "id":1,
+      "title":"Animateurs d'ateliers culinaires : ",
+     
+      "description":"Partagez vos compétences en cuisine et votre culture avec des jeunes en milieu scolaire."
+      
+    },
+    {
+      "id":2,
+  
+      "title":"Volontaires en communication :",
+      "description":"Aidez-nous à faire connaître nos projets et à attirer de nouveaux participants et supporters."
+    
+    },
+    {
+      "id":3,
+      "title":"Coordinators de projets internationaux :",
+      "description":"Soutenez la mise en œuvre de nos projets d'éducation en Afrique, en travaillant avec nos partenaires locaux."
+    }
+   ],
+   "contactFormTitle":"Inscription au Projet Cuisine Globale",
+   "nom":"Nom",
+   "nomText":"Écrivez votre nom complet",
+   "email":"E-mail",
+   "emailText":"Écrivez votre adresse e-mail",
+   "thème":"Thème",
+   "thèmeText":"Écrivez votre Thème",
+   "message":"Message",
+   "messageText":"Écrivez votre message...",
+   "btn":"Envoyer votre message"
+ },
+ "NotFound":{
+   "title":"Page introuvable",
+   "subtitle":"La page que vous recherchez n'a pas été trouvé disponible.",
+   "btn":"Retourner à la page d'accueil",
+    "link":"/"
+ },
+ "Email": {
+  
+    "welcome": "Bienvenue",
+    "welcomeMessage": "Nous sommes heureux que vous nous ayez rejoint !",
+    "btn":"Envoyer votre message",
+      "writeEmail":"Écrivez votre adresse e-mail"
+ 
+  
+},
+"Newsletter":{
+  "title":"Abonnez-vous à notre newsletter",
+  "subtitle":"et vous recevrez nos derniers articles et actualités.",
+  "btn":"S'abonner",
+  "writeEmail":"Écrivez votre adresse e-mail",
+  "monthly":"Souscription mensuelle",
+  "monthlyText":"Souscrivez à notre newsletter et vous recevrez tous les articles mensuellement sur Global Music Player.",
+  "spams":"Aucun abus d'envoi de spam",
+  "spamsText":"Vous ne recevrez aucune alerte d'abus d'envoi de spam."
+}
    
 
 }

@@ -31,4 +31,10 @@
   .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
     display: none;
   }
-  
+
+  .notFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }

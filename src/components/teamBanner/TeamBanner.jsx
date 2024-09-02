@@ -10,7 +10,8 @@ import 'swiper/css/pagination';
 // import required modules
 import { Pagination } from 'swiper/modules';
 import { useTranslations } from 'next-intl';
-import Teams from './../../app/[locale]/country/page';
+import Teams from './../../app/[locale]/teams/page';
+
 const TeamBanner = () => {
     const t = useTranslations('Teams');
     const teams = t.raw('team');

@@ -20,13 +20,19 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "strictNullChecks": true
   },
   "include": [
     "next-env.d.ts",
     ".next/types/**/*.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "src/app/api/route.jsx",
+    "src/app/api/emails/route.jsx",
+    "src/components/emails/EmailTemplate.jsx",
+    "src/app/[locale]/send/sendEmail.jsx",
+    "src/app/[locale]/send/sendEmail.jsx"
   ],
   "exclude": [
     "node_modules"

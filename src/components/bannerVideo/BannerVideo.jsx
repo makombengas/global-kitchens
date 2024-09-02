@@ -20,7 +20,7 @@ const BannerVideo = () => {
                 className="w-full  object-cover h-[100vh] "
                 
           >
-             <source src="/videos/freeze.mp4" type="video/mp4" />
+             <source src="/videos/food.mp4" type="video/mp4" />
             <track
                 src="/path/to/captions.vtt"
                 kind="subtitles"
@@ -34,7 +34,8 @@ const BannerVideo = () => {
           <span className="text-[#8EC63F] text-center text-md px-4 md:text-3xl"> {infosBanner("theme")} </span>
           <div className="w-full flex items-center justify-center gap-4 md:gap-10">
             <hr className=" border-1 border-gray-100 w-[6rem] md:w-[23rem] " />
-            <i className="at-pear-organic text-4xl  text-gray-100 md:text-8xl"></i>
+            <i className="at-herb-mix text-4xl  text-gray-100 md:text-8xl"></i>
+           
             <hr className=" border-1 border-gray-100 w-[6rem] md:w-[23rem] " />
           </div>
           <p className="w-full text-md px-4 xl:w-[50%] lg:w-[80%] font-light md:text-2xl text-center text-white">{infosBanner("slogan")}</p>

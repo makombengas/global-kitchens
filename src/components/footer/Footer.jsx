@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import Link from "next/link"
 
-
+import  NewsLetter  from "../newsletter/Newsletter";
 
 import dynamic from 'next/dynamic';
 import Sponsor from "../sponsor/Sponsor";
@@ -23,8 +23,9 @@ const Footer = ({closeMenu}) => {
     ];
   return (
   <div className="w-full h-full text-white bg-[#141517] ">
+   <NewsLetter/>
 
-   <Sponsor/>
+   {/* <Sponsor/> */}
 
   {/* map component Leaflet */}
 
@@ -37,8 +38,9 @@ const Footer = ({closeMenu}) => {
           markers={markers}
         />
       </div>
-    </div>
 
+    </div>
+     
       <div className="w-full h-full flex gap-8 md:gap-16 justify-between px-8 py-8 md:py-16 flex-col md:flex-row  flex-wrap ">
     
     <div className=" flex flex-col justify-center items-center md:items-start md:justify-start gap-4 flex-1">
@@ -124,9 +126,10 @@ const Footer = ({closeMenu}) => {
 
    <div className="w-full flex flex-col justify-center items-center gap-8">
    <hr className="border-[.01rem] border-none h-[.015rem] bg-gray-400 w-full" />
-   <p className="text-sm text-center mt-4 text-gray-200">© 2024 {logo('logoName')} - {logo('footerInfo')}</p>
+   <p className="text-xs  md:text-sm text-center mt-4 text-gray-200">© 2024 {logo('logoName')} - {logo('footerInfo')}</p>
    </div>
     </div>
+
   </div>
   )
 }

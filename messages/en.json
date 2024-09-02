@@ -10,7 +10,8 @@
         "Team": "Team",
         "join": "Join us",
         "contact": "Contact",
-         "pathnames": "Pathnames"
+         "pathnames": "Pathnames",
+          "adresse": "Address:"
     },
 
     "IndexPage": {
@@ -87,9 +88,10 @@
      },
      
       "Teams": {
+        "teamTitle": "Our team",
         "title": "Meet our team",
-        "subtitle": "We are a group of people who are interested in the field of cooking and culture.",
-
+        "subtitle": "A diversified and passionate team of intercultural service and durable development.",
+        "description":"At Global Music Player, our team is our greatest strength. Made up of people from all corners of the world, our team reflects the cultural diversity we celebrate through our projects. Each of our members brings their own unique experience, skills, and a shared passion for social change.",
         "team": [
           {
             "id": 1,
@@ -99,7 +101,7 @@
             "description": "I am a founding member of the Global Music Player association. I am on the board and work as a musician, cameraman and video editor. I was born in Cameroon and have worked there as a cameraman and edited videos, among other things. For a few years I worked as a cameraman for a Cameroonian television channel. I have now lived in Germany for around 15 years. Since then I have been active in various associations, such as Arfique europe inter act . As part of my previous association work I have travelled to various countries such as Senegal, Mali and Burkina Faso and have been involved in the production of documentaries and photographs.",
             "imageAlt": "/images/Bernard.jpg",
             "btn": "Learn more",
-            "link": "/country"
+             "link": "/teams/"
           },
           {
             "id": 2,
@@ -109,7 +111,7 @@
             "description": "I co-founded the Global Music Player association. Since 2011, I have worked on various projects and helped shape the association. I have also been involved in the musicals and youth projects. Als gebürtige Georgierin bereichere ich das Repertoire der Vereinsband Global Music Player AllStars mit eigenen Stücken sowie mit georgischen Traditionals. Von vielen Kulturen geprägt bringe ich aber auch andere, z.B. indische, kaukasische und weitere Elemente und Sprachen mit ein. Zwischen 2011 und 2018 sang und spielte ich im Duo Flower Flow. Jetzt arbeite ich an meinen Singer-Songwriter-Stücken als Solo-Musikerin weiter und bin gerade dabei, dem Publikum meinen neuen Namen Kolibrina näher zu bringen. Die Veröffentlichung meines ersten Albums „So Deep“ musste verschoben werden. Sobald das öffentliche Leben wieder erblüht, plant Kolibrina nach dem Release von „So Deep“ eine Tournee und die Aufnahme weiterer Songs. In diesem Verein kann man sich als Mensch und als Musiker optimal entfalten. Vordergründig geht es um die Freude bei der schöpferischen Arbeit, die man miteinander teilt.",
             "imageAlt": "/images/Nino.jpg",
             "btn": "Learn more",
-            "link": "/country"
+             "link": "/teams/"
           },
           {
             "id": 3,
@@ -119,7 +121,7 @@
             "description": "»I was born in 1985 in Côte d'Ivoire (Ivory Coast) and grew up in the city of Man. Nine years ago I came to Germany for the first time with the circus Afrika Afrika. I toured many countries around the world with the circus for four years. I have been living in Oldenburg since 2010. As in Côte d'Ivoire, I work here as a dancer and singer and travel a lot in Germany. I regularly fly to the Ivory Coast to visit my family.",
             "imageAlt": "/images/Jessika.jpg",
             "btn": "Learn more",
-            "link": "/country"
+             "link": "/teams/"
           },
           {
             "id": 4,
@@ -129,7 +131,7 @@
             "description": "I am an intercultural educator, music teacher and musician (singing, guitar, drums) and work as a project manager for cultural education in the cultural office of the city of Oldenburg. I have also been active in music and music education in Oldenburg for many years, including as a choir director and in song projects with young people. Through my work with the Global Music Player association, I can see what moves young people in Oldenburg and support them in giving musical expression to their voices. I can also play the music that touches my heart with other Global Music Players e.g. Latin American Música Popular, and promote musical encounters between people of different backgrounds in Oldenburg. ",
             "imageAlt": "/images/Sophie.jpg",
             "btn": "Learn more",
-            "link": "/country"
+            "link": "/teams/"
           },
           {
             "id": 5,
@@ -139,7 +141,7 @@
             "description": "I am a journalist, photographer and media designer. My instruments are a camera (for still and moving images) and a keyboard - but only for writing on my laptop. I always try to play a little guitar, but I'm not really that determined. I report for ganz-oldenburg.de on smaller and larger projects on the topics of youth, integration and inclusion and have become a global music player in this way. Here I am primarily involved in documenting the work in words and pictures. As a media designer, I am largely involved in our publishing house's books. I set the three children's books and prepared them for production, as well as the accompanying CDs. Production management is also part of my responsibilities.",
             "imageAlt": "/images/Carsten.jpg",
             "btn": "Learn more",
-            "link": "/country"
+            "link": "/teams/"
           }
         ]
       },
@@ -154,6 +156,225 @@
     "companyTwo": "/images/stadtOldenburg.svg",
     "companyThree": "/images/culture.svg",
     "companyFour": "/images/igs.jpg"
-   }
+   },
+   "About":{
+    "title": "International cooking project",
+    "slogan": "A culinary adventure for sustainability and education",	
+    "description": "Global Music Player's International Cooking Project is more than just a cooking class - it is a platform for intercultural exchange, sustainability and global education. In collaboration with schools in Oldenburg, we offer a series of interactive cooking workshops aimed at students of all ages. Our goal is to teach them the importance of food, encourage their creative cooking skills and at the same time raise awareness of the challenges of food waste.",
+    "aboutBottom":[
+     {
+       "id":1,
+       "title":"Our vision",
+       "titleInfos":"Our vision",
+       "description":"In a world where millions of tons of food are wasted every year, we want to raise awareness of how valuable each ingredient is. Through the International Cooking Project, we teach students that you can turn any food - even what appears to be leftovers - into something delicious and nutritious. At the same time, we use the power of cooking together to overcome cultural differences and promote a new generation of environmentally conscious and cosmopolitan citizens.",
+        "descriptionInfosOne":"",
+        "descriptionInfosTwo":"",
+        "descriptionInfosThree":"",
+        "descriptionInfosFour":"",
+       " descriptionInfosFive":"",
+        "descriptionInfosSix:":"",
+       "descriptionSix":""
+
+     },
+     {
+       "id":2,
+       "title":"Our goals and social added value",
+       "description":"Sustainability and food rescue: Food management is a central aspect of the project. We show students how to prepare delicious dishes from food that is often considered waste. In doing so, they learn how to conserve resources and reduce their ecological footprint. These skills are not only useful in the home, but also contribute to global sustainability.",
+       "descriptionInfosOne":"",
+       "descriptionInfosTwo":"",
+       "descriptionInfosThree":"",
+       "descriptionInfosFour":"",
+      "descriptionInfosFive":"",
+      "descriptionInfosSix":"",
+       "descriptionOne":"",
+       "descriptionTwo":"Intercultural dialogue and understanding: The cooking workshops are led by people from different cultures who live in Oldenburg. These international cooking teachers bring their own traditional recipes and stories, giving the students an authentic insight into other cultures. In this way, we not only promote understanding of cultural differences, but also appreciation for what unites us - eating together.",
+       "descriptionThree":"Promoting education in Cameroon and the Ivory Coast: The proceeds from the projects are invested directly in the construction and equipment of schools in Cameroon and the Ivory Coast. Education is the key to a better future and through our work we want to help ensure that children in these countries also have the opportunity to attend school. In this way we not only support the personal development of the children, but also the social and economic structures on site.",
+       "descriptionFour":"",
+       "descriptionFive":"",
+        "descriptionInfosSix:":"",
+       "descriptionSix":""
+     },
+     {
+       "id":3,
+       "title":"Project structure and process",
+       "description":"We work closely with schools in Oldenburg to reach students who want to participate in our workshops. The selection of schools is based on interest in intercultural and sustainable topics.",
+       "descriptionInfosOne":"Selection of schools and participants:",
+       "descriptionOne":"We work closely with schools in Oldenburg to reach students who want to participate in our workshops. The selection of schools is based on interest in intercultural and sustainable topics.",
+       "descriptionInfosTwo":"Workshop conception and preparation:",
+       "descriptionTwo":"Each workshop is carefully prepared by our international cooking teachers, who select recipes that are both simple and representative of their respective cultures. We make sure that the ingredients used are local and seasonal to support the principles of sustainability.",
+       "descriptionInfosThree":"Conducting the workshops:",
+       "descriptionThree":"The workshops begin with an introduction to food waste and the importance of sustainability. The cooking teachers then present their recipes and tell the stories behind the dishes. The students then cook under supervision, learning important kitchen techniques and creative ways to deal with leftovers.",
+       "descriptionInfosFour":"Reflection and exchange:",
+       "descriptionFour":"After cooking and eating together, there is time for reflection and discussion. Students can ask questions, share their experiences and talk about what they have learned. This exchange is crucial for understanding the cultural and environmental issues that the project addresses.",
+       "descriptionInfosFive":"Continuation and commitment:",
+       "descriptionFive":"After the workshops, participants will have access to recipes and materials that they can use at home to further reinforce what they have learned. They will also have the opportunity to take part in other activities organized by the Global Music Player Association to further develop their knowledge and skills.",
+       "descriptionInfosSix:":"",
+       "descriptionSix":""
+     },
+     {
+       "id":4,
+       "title":"Sustainable impact and future perspectives",
+       "description":"The International Cooking Project is not just limited to the one-time workshop. Our goal is to bring about a long-term change in the behavior and thinking of the students. By imparting practical skills and cultural sensitivity, we want to contribute to the creation of a sustainable and open society.",
+       "descriptionInfosOne":"",
+       "descriptionOne":"With the proceeds from this project, we plan to build and equip more schools in Cameroon and Ivory Coast. In this way, we will expand access to education and offer young people the chance for a better future. We hope that this project will be replicated in other cities and countries in order to multiply the positive impact.",
+       "descriptionInfosTwo":"",
+       "descriptionTwo":"",
+       "descriptionInfosThree":"",
+       "descriptionThree":"",
+       "descriptionInfosFour":"",
+       "descriptionFour":"",
+       "descriptionInfosFive":"",
+       "descriptionFive":"",
+       "descriptionInfosSix":"",
+       "descriptionSix":"" 
+     }
+   
+    ]
+ },
+ "Contact":{
+   "title":"Contact us",
+   "subtitle":"Do you have any questions about our project, would like to know more about our workshops or simply want to get in touch with us? We would love to hear from you!",
+   "coordonnées":"Our contact details:",
+   "formulaire":"Contact form:",
+   "nom":"Write your full name",
+   "email":"Write your email address",
+   "message":"Write your message...",
+   "btn":"Send your message",
+   "formulaireInfos":"Fill out the form below, and we will get back to you as soon as possible.",
+   "adresse":"Our address:",
+   "horaire":"Our opening hours:",
+   "donnéInfos":[
+   
+      {
+        "id":1,
+        "title":"Phone :",
+       
+        "adresse":"+49 0176 21 84 71 69"
+       
+      },
+      {
+        "id":2,
+        "title":"Email :",
+       
+        "adresse":"berlioz2001@yahoo.fr"
+      }
+     ] ,
+     "contactInfos":[
+      {
+        "id":1,
+        "title":"Address :",
+        "adresse":"Humboldtstraße 32, 26121 Oldenburg, Allemagne"
+    
+      }
+     ] ,
+     "horaireInfos":[
+      {
+        "id":1,
+        "jour":"Monday - Friday:",
+        "heure":"08:00 - 17:00"
+    
+      },
+      {
+        "id":2,
+        "jour":"Saturday and Sunday:",
+        "heure":"Closed"
+    
+      }
+     ] ,
+     "réseauxSociaux":"Suivez-nous sur les réseaux sociaux :" ,
+     "formError":"Please fill all the fields before you submit your form !",
+     "formWorkInfosTitle":"Our contact form is currently being revised to offer you an even better service. We ask for your understanding.",
+     "formWorkInfosSubtitle":"In the meantime you can reach us",
+     "formWorkInfosEmailTitle":"E-Mail-Adresse",
+     "formWorkInfosEmail":"berlioz:2001@yahoo.fr",
+     "formWorkInfosPhoneTitle":"Telephone number",
+     "formWorkInfosPhone":"+49 0176 21 84 71 69",
+     "formWorkInfosThanks":"Thank you for your patience. We look forward to welcoming you soon with our improved contact form.",
+     "formWorkInfosName":"Bernard Ngassa",
+     "formWorkInfosJobTitle":"Project Manager"
+ },
+ "JoinUs":{
+   "title":"Do you share our passion for cultural diversity, sustainability and education ?", 
+   "subtitle":"Join our team and actively contribute to the realization of our projects !",
+   "pourquoi":"Why join Global Music Player ?",
+   "poste":"Available positions :",
+   "nousJoindre":"Join us :",
+   "nousJoindreText":"Would you like to be part of a team dedicated to interculturality and sustainable development? Check out our Join Our Team section to find out how you can contribute to our mission.",
+   "pourquoiArray":[
+    {
+      "id":1,
+      "title":"Social impact :",
+      "subtitle":"By joining our team, you will have the opportunity to participate in initiatives that make a real difference, both locally and internationally."
+      
+    },
+    {
+      "id":2,
+      "title":"Personal enrichment :",
+      "subtitle":" Learn new skills, experience different cultures and be part of an engaged and supportive community."
+      
+    },
+    {
+      "id":3,
+      "title":"Professional development :",
+    
+      "subtitle":"Gain experience in project management, workshop facilitation and more, in a dynamic, interdisciplinary setting."
+      
+    }
+   ],
+   "posteArray":[
+   
+    {
+      "id":1,
+      "title":"Culinary workshop leaders : ", 
+      "description":"Share your cooking skills and culture with young people in schools."
+    },
+    {
+      "id":2,
+      "title":"Volunteers in communication:",
+      "description":"Help us spread the word about our projects and attract new participants and supporters." 
+    },
+    {
+      "id":3,
+      "title":"International Project Coordinators:",
+      "description":"Soutenez la mise en œuvre de nos projets d'éducation en Afrique, en travaillant avec nos partenaires locaux.Support the implementation of our education projects in Africa, working with our local partners."
+    }
+   ],
+   "contactFormTitle":"Registration for the Global Cuisine Project",
+   "nom":"Name",
+   "nomText":"Write your full name",
+   "email":"Email",
+   "emailText":"Write your email address",
+   "thème":"Theme",
+   "thèmeText":"Write your Theme",
+   "message":"Message",
+   "messageText":"Write your message...",
+   "btn":"Send your message"
+ },
+ "NotFound":{
+   "title":"Page not found",
+   "subtitle":"The page you are looking for does not exist.",
+   "btn":"Back to home",
+    "link":"/"
+ },
+"Email": {
+  "welcome": "Welcome",
+  "emailSent": "Your email has been sent!",
+  "emailError": "We are unable to send your email. Please try again later.",
+  "submit": "Send your email",
+  "welcomeMessage": "We're glad you joined us!",
+   "btn":"Send your message",
+  "writeEmail":"Enter your email address"
+},
+"Newsletter":{
+  "title":"Subscribe to our newsletter",
+  "subtitle":"and you will to receive our latest articles and news.",
+  "btn":"Subscribe",
+  "writeEmail":"Write your email address",
+  "monthly":"Monthly subscription",
+  "monthlyText":"Subscribe to our newsletter and you will receive all the articles monthly on Global Music Player.",
+  "spams":"No spamming abuse",
+  "spamsText":"You will not receive any spam sending abuse alerts."
+}
+
     
 }

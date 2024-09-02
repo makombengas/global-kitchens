@@ -16,7 +16,7 @@ export default function NavigationLink({href, ...rest}) {
     <Link
       aria-current={isActive ? 'page' : undefined}
       className={clsx(
-        isActive ? 'text-gray-100 border-b-2 border-[#8EC63F]   text-sm sm:text-sm xl:text-xl uppercase' : 'text-gray-100 hover:text-gray-200 text-sm sm:text-sm xl:text-xl uppercase'
+        isActive ? 'text-gray-100 border-b-2 border-[#8EC63F]   text-xl sm:text-[.7rem] lg:text-md xl:text-xl uppercase' : 'text-gray-100  hover:text-gray-400 text-xl sm:text-[.7rem] lg:text-md xl:text-xl uppercase'
       )}
       href={href}
       {...rest}
