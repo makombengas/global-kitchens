@@ -2,7 +2,8 @@
 import { useTranslations } from 'next-intl';
 import PubBanner from '../../../components/pubBanner/PubBanner';
 import Image from 'next/image';
-import TeamBanner from '../../../components/teamBanner/TeamBanner';
+import TeamBanner from './../../../components/teamBanner/TeamBanner';
+
 
 const TeamPage = () => {
 
