@@ -1,7 +1,8 @@
 "use client"
 
 import Image from "next/image";
-import PubBanner from '../../../components/pubBanner/PubBanner';
+import PubBanner from './../../../../components/pubBanner/PubBanner';
+
 
 
 
