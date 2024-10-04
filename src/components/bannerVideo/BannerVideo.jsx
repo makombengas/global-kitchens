@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl"
 import NavigationLink from './../NavigationLink';
+import Image from "next/image";
 
 
 const BannerVideo = () => {
@@ -34,17 +35,18 @@ const BannerVideo = () => {
           <span className="text-[#8EC63F] text-center text-md px-4 md:text-3xl"> {infosBanner("theme")} </span>
           <div className="w-full flex items-center justify-center gap-4 md:gap-10">
             <hr className=" border-1 border-gray-100 w-[6rem] md:w-[23rem] " />
-            <i className="at-herb-mix text-4xl  text-gray-100 md:text-8xl"></i>
+            {/* <i className="at-herb-mix text-4xl  text-gray-100 md:text-8xl"></i> */}
+            <Image src="/images/logos.png" alt="food" width={100} height={100} className="w-[15rem]"/>
            
             <hr className=" border-1 border-gray-100 w-[6rem] md:w-[23rem] " />
           </div>
           <p className="w-full text-md px-4 xl:w-[50%] lg:w-[80%] font-light md:text-2xl text-center text-white">{infosBanner("slogan")}</p>
          <div className="w-full flex items-center justify-center gap-8">
          <NavigationLink href={infosBanner("link")}  >
-          <button className="bg-[#8EC63F] text-gray-900   transition-bg ease-linear duration-300 uppercase py-2 px-4 hover:bg-gray-100 hover:text-gray-800  md:text-xl mt-5 rounded-full">{infosBanner("btn")}</button>
+          <button className="bg-[#8EC63F] text-gray-900 text-[.75rem]  transition-bg ease-linear duration-300 uppercase py-2 px-4 hover:bg-gray-100 hover:text-gray-800   md:text-xl mt-5 rounded-full">{infosBanner("btn")}</button>
           </NavigationLink>
           <NavigationLink href={infosBanner("linkContact")}  >
-          <button className="border-2 text-gray-100  border-gray-100  transition-bg ease-linear duration-300 uppercase py-2 px-4 hover:bg-gray-100 hover:text-gray-800 md:text-xl mt-5 rounded-full">{infosBanner("btnContact")}</button>
+          <button className="border-2 text-gray-100  border-gray-100 text-[.75rem]  transition-bg ease-linear duration-300 uppercase py-2 px-4 hover:bg-gray-100 hover:text-gray-800 md:text-xl mt-5 rounded-full">{infosBanner("btnContact")}</button>
           </NavigationLink>
          </div>
         </div>

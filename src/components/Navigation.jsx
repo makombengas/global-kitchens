@@ -55,13 +55,14 @@ const handleScroll =()=>{
        <Link onClick={closeMenu} href="/" className='z-10'>
        <div className="flex  flex-col z-10">
            
-         <div className="flex items-center gap-2">
+         <div className="flex flex-col items-center gap-1">
+         <h1 className="xl:text-2xl flex gap-2 items-center sm:text-md font-bold text-sm">
          <i className="at-herb-mix text-sm  text-gray-100 md:text-3xl"></i>
-         <h1 className="xl:text-2xl sm:text-md font-bold text-sm">
             {logo("logoName")}
            </h1>
+         {/* <Image src="/images/logos.png" alt="logo" className='md:w-[6rem] ' style={{width: "auto", height: "auto"}} width={50} height={50} /> */}
+           <p className='text-[.8rem] hidden md:block font-extralight text-center'>{logo("LogoSlogan")}</p>
          </div>
-           <p className='text-[.7rem] hidden md:block font-extralight text-center'>{logo("LogoSlogan")}</p>
          
         </div>
        </Link>

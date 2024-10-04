@@ -2,7 +2,7 @@
 
 import Image from "next/image"
 import NavigationLink from "../../../components/NavigationLink"
-import { Link } from "../../../navigation"
+
 import { useRouter } from 'next/navigation';
 
 
@@ -39,10 +39,11 @@ const router = useRouter();
           </div>
           <div className="flex justify-center items-center">
             <NavigationLink  href={ {
-              pathname: `/${link}/${dataToSend.id}`,
+              pathname: `/${link}/${id}`,
               locale: locale,
+              query:query,
               query: {
-               ...dataToSend,
+                ...dataToSend,
                locale: locale
               }
             }
