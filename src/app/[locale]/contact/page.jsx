@@ -24,6 +24,8 @@ const Contact = () => {
   const[contactError, setContactError] = useState(false);
  
   const handleSubmit = async (e) => {
+
+    
     e.preventDefault();
     if(!name || !email || !message){
       setContactError(true)

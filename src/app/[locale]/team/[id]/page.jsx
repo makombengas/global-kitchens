@@ -23,7 +23,7 @@ const CountryPage = (searchParams) => {
                 
             <div className="w-full h-full flex flex-col md:flex-row justify-center   gap-4 ">
                 <div className=" h-full w-full md:w-[40rem] ">
-                    <Image src={data.image} alt="team" width={500} height={500} style={{width: "100%", height: "100%"}} priority required  className="object-cover w-full  object-top-center h-[17rem] md:h-screen" />
+                  { data.image && <Image src={data.image} alt="team" width={500} height={500} style={{width: "100%", height: "100%"}} priority required  className="object-cover w-full  object-top-center h-[17rem] md:h-screen" />}
                 </div> 
                 <div className="w-full h-full p-4">
                     <div className="w-full h-full py-8 md:mt-8">

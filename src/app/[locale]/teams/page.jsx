@@ -39,7 +39,7 @@ const router = useRouter();
           </div>
           <div className="flex justify-center items-center">
             <NavigationLink  href={ {
-              pathname: `/${link}/${id}`,
+              pathname: `/${link}/${name}`,
               locale: locale,
               query:query,
               query: {
