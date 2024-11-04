@@ -4,7 +4,7 @@ import {useTranslations} from 'next-intl';
 import LocaleSwitcher from './LocaleSwitcher';
 import NavigationLink from './NavigationLink';
 import { useEffect, useState } from 'react';
-import { Link } from '../navigation';
+import { Link } from '../i18n/routing';
 import { useSelectedLayoutSegment } from 'next/navigation';
 import Image from 'next/image';
 

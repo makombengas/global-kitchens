@@ -4,12 +4,16 @@ import Image from "next/image"
 import NavigationLink from "../../../components/NavigationLink"
 
 import { useRouter } from 'next/navigation';
+import { useTranslations } from "next-intl";
 
 
 
 
-const Teams = ({id, image, country, code, name, description, link, btn, teams}) => {
+const Teams = ({id, image, country, code, name, description, link, btn}) => {
+  const t = useTranslations('Teams');
+  const teams = t.raw('team');
   const dataToSend = {id, image, country, code, name, description, link, btn}
+
 
   const findTeamsId = teams.find(teams => teams.id=== 3)
 const router = useRouter();

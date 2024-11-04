@@ -3,7 +3,7 @@
 import clsx from 'clsx';
 import {useParams} from 'next/navigation';
 import { useState, useTransition} from 'react';
-import {useRouter, usePathname} from '../navigation';
+import {useRouter, usePathname} from "../i18n/routing"
 
 import { useTranslations } from 'next-intl';
 
